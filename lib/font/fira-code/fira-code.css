@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Fira Code';
-    src: url('FiraCode-Regular.eot');
-    src: url('FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
-         url('FiraCode-Regular.woff') format('woff'),
-         url('FiraCode-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}

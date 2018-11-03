@@ -10,8 +10,7 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url(../../lib/font/league-gothic/fira-code.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto+Mono|Anton|Pattaya);
 
 /**
  * Solarized colors by Ethan Schoonover
@@ -77,6 +76,7 @@ $selectionColor: $base1;
 #italodr {
     @import "../components/avatar";
     @import "../components/code";
+    @import "../components/typography";
 }
 
 // Theme template ------------------------------

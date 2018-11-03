@@ -23,18 +23,7 @@
     <body>
         <div id="italodr" class="reveal">
             <div class="slides">
-                <section>
-                    <section>
-                        <h1>Hola!</h1>
-                    </section>
-                    <section>
-                        <img class="avatar" src="../img/italodr.jpg" alt="Italo Devoto Ramella" />
-                        <h1>Italo Devoto Ramella</h1>
-                        <h4>Head of front-ends at Runroom</h4>
-                        <p class="fragment fade-up">@italodr</p>
-                        <p class="fragment fade-up">@italo_dr</p>
-                    </section>
-                </section>
+                <section data-external="../components/hi.html"></section>
                 <section data-markdown="./md/example.md"
                          data-separator="^\n\n\n"
                          data-separator-vertical="^\n\n"
@@ -49,6 +38,9 @@
 import * as React from 'react';
 
 class Sample extends React.Component {
+    const [title, ...props] = this.props;
+    const foo = props => props.map(item => `${item} rules!`);
+
     render() {
         return (
             <div>Hello!</div>
@@ -72,39 +64,12 @@ class Sample extends React.Component {
                         </code></pre>
                     </section>
                 </section>
-                <section>
-                    <p class="fragment grow">grow</p>
-                    <p class="fragment shrink">shrink</p>
-                    <p class="fragment fade-out">fade-out</p>
-                    <p class="fragment fade-up">fade-up (also down, left and right!)</p>
-                    <p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
-                    <p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
-                    <div>
-                        <span class="fragment highlight-current-blue">blue only once</span>
-                        <span class="fragment highlight-red">highlight-red</span>
-                        <span class="fragment highlight-green">highlight-green</span>
-                        <span class="fragment highlight-blue">highlight-blue</span>
-                    </div>
-                </section>
+                <section data-external="../components/thanks.html"></section>
             </div>
         </div>
 
         <script src="../lib/js/head.min.js"></script>
         <script src="../js/reveal.js"></script>
-
-        <script>
-            // More info about config & dependencies:
-            // - https://github.com/hakimel/reveal.js#configuration
-            // - https://github.com/hakimel/reveal.js#dependencies
-            Reveal.initialize({
-                dependencies: [
-                    { src: '../plugin/markdown/marked.js' },
-                    { src: '../plugin/markdown/markdown.js' },
-                    { src: '../plugin/zoom-js/zoom.js', async: true },
-                    { src: '../plugin/notes/notes.js', async: true },
-                    { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-                ]
-            });
-        </script>
+        <script src="../js/initialize.js"></script>
     </body>
 </html>

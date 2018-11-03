@@ -1,8 +1,11 @@
 pre {
-    font-family: 'Fira Code', monospace, serif;
-    font-size: .9em;
+    font-size: .75em;
     letter-spacing: 1px;
-    line-height: 1.5;
+    line-height: 1.75;
+
+    &, * {
+        font-family: 'Roboto Mono', monospace, serif;
+    }
 
     .hljs {
         background: hsla(0, 100%, 0%, .35);

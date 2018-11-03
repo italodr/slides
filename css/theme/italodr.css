@@ -2,8 +2,7 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
-@import url(../../lib/font/league-gothic/fira-code.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto+Mono|Anton|Pattaya);
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -17,13 +16,29 @@ html * {
   max-width: 6em; }
 
 #italodr pre {
-  font-family: 'Fira Code', monospace, serif;
-  font-size: .9em;
+  font-size: .75em;
   letter-spacing: 1px;
-  line-height: 1.5; }
+  line-height: 1.75; }
+  #italodr pre, #italodr pre * {
+    font-family: 'Roboto Mono', monospace, serif; }
   #italodr pre .hljs {
     background: rgba(0, 0, 0, 0.35);
     padding: 1rem; }
+
+#italodr h1, #italodr h2, #italodr h3, #italodr h4 {
+  text-transform: none; }
+
+#italodr h5, #italodr h6 {
+  text-transform: uppercase; }
+
+#italodr .anton {
+  font-family: 'Anton', sans-serif; }
+
+#italodr .pattaya {
+  font-family: 'Pattaya', sans-serif; }
+
+#italodr .huge {
+  font-size: 7.478rem; }
 
 /*********************************************
  * GLOBAL STYLES
