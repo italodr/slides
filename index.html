@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>reveal.js</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/italodr.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div id="italodr" class="reveal">
+            <div class="slides">
+                <section>
+                    <section>
+                        <h1>Hola!</h1>
+                    </section>
+                    <section>
+                        <img class="avatar" src="./img/italodr.jpg" alt="Italo Devoto Ramella" />
+                        <h1>Italo Devoto Ramella</h1>
+                        <h4>Head of front-ends at Runroom</h4>
+                        <p class="fragment fade-up">@italodr</p>
+                        <p class="fragment fade-up">@italo_dr</p>
+                    </section>
+                </section>
+                <section data-markdown="./md/example.md"
+                         data-separator="^\n\n\n"
+                         data-separator-vertical="^\n\n"
+                         data-separator-notes="^Note:"
+                         data-charset="iso-8859-15">
+                </section>
+                <section>
+                    <section>
+                        No editable
+                        <!--  data-noescape to use HTML -->
+                        <pre><code data-trim>
+import * as React from 'react';
+
+class Sample extends React.Component {
+    render() {
+        return (
+            <div>Hello!</div>
+        )
+    }
+}
+                        </code></pre>
+                    </section>
+                    <section>
+                        Editable
+                        <pre><code class="javascript hljs" data-trim contenteditable>
+import * as React from 'react';
+
+class Sample extends React.Component {
+    render() {
+        return (
+            <div>Hello!</div>
+        )
+    }
+}
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <p class="fragment grow">grow</p>
+                    <p class="fragment shrink">shrink</p>
+                    <p class="fragment fade-out">fade-out</p>
+                    <p class="fragment fade-up">fade-up (also down, left and right!)</p>
+                    <p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+                    <p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+                    <div>
+                        <span class="fragment highlight-current-blue">blue only once</span>
+                        <span class="fragment highlight-red">highlight-red</span>
+                        <span class="fragment highlight-green">highlight-green</span>
+                        <span class="fragment highlight-blue">highlight-blue</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
+</html>

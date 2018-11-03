@@ -1,0 +1,85 @@
+/**
+ * Solarized Dark theme for reveal.js.
+ * Author: Achim Staebler
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url(../../lib/font/league-gothic/fira-code.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab);
+
+/**
+ * Solarized colors by Ethan Schoonover
+ */
+html * {
+    color-profile: sRGB;
+    rendering-intent: auto;
+}
+
+// Solarized colors
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+// Background of the presentation
+$backgroundColor: $base03;
+
+// Primary/body text
+$mainFont: 'Roboto Slab', sans-serif;
+$mainFontSize: 20px;
+$mainColor: $base1;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'Raleway', serif;
+$headingColor: $base2;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+$heading1TextShadow: none;
+
+$heading1Size: 2.369em;
+$heading2Size: 1.777em;
+$heading3Size: 1.333em;
+$heading4Size: 1em;
+
+// Links and actions
+$linkColor: $blue;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: $magenta;
+$selectionColor: $base1;
+
+#italodr {
+    @import "../components/avatar";
+    @import "../components/code";
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
