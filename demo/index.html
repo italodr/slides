@@ -6,17 +6,17 @@
 
         <title>Sample Keynote using reveal.js</title>
 
-        <link rel="stylesheet" href="../../css/reveal.css">
-        <link rel="stylesheet" href="../../css/theme/italodr.css">
+        <link rel="stylesheet" href="../css/reveal.css">
+        <link rel="stylesheet" href="../css/theme/italodr.css">
         <!-- Theme used for syntax highlighting of code -->
-        <link rel="stylesheet" href="../../lib/css/zenburn.css">
+        <link rel="stylesheet" href="../lib/css/zenburn.css">
 
         <!-- Printing and PDF exports -->
         <script>
             var link = document.createElement( 'link' );
             link.rel = 'stylesheet';
             link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
             document.getElementsByTagName( 'head' )[0].appendChild( link );
         </script>
     </head>
@@ -28,7 +28,7 @@
                         <h1>Hola!</h1>
                     </section>
                     <section>
-                        <img class="avatar" src="../../img/italodr.jpg" alt="Italo Devoto Ramella" />
+                        <img class="avatar" src="../img/italodr.jpg" alt="Italo Devoto Ramella" />
                         <h1>Italo Devoto Ramella</h1>
                         <h4>Head of front-ends at Runroom</h4>
                         <p class="fragment fade-up">@italodr</p>
@@ -89,8 +89,8 @@ class Sample extends React.Component {
             </div>
         </div>
 
-        <script src="../../lib/js/head.min.js"></script>
-        <script src="../../js/reveal.js"></script>
+        <script src="../lib/js/head.min.js"></script>
+        <script src="../js/reveal.js"></script>
 
         <script>
             // More info about config & dependencies:
@@ -98,11 +98,11 @@ class Sample extends React.Component {
             // - https://github.com/hakimel/reveal.js#dependencies
             Reveal.initialize({
                 dependencies: [
-                    { src: '../../plugin/markdown/marked.js' },
-                    { src: '../../plugin/markdown/markdown.js' },
-                    { src: '../../plugin/zoom-js/zoom.js', async: true },
-                    { src: '../../plugin/notes/notes.js', async: true },
-                    { src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                    { src: '../plugin/markdown/marked.js' },
+                    { src: '../plugin/markdown/markdown.js' },
+                    { src: '../plugin/zoom-js/zoom.js', async: true },
+                    { src: '../plugin/notes/notes.js', async: true },
+                    { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
                 ]
             });
         </script>
