@@ -1,9 +1,8 @@
 {
-  "name": "reveal.js",
-  "version": "3.7.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
-  "subdomain": "revealjs",
+  "name": "italodr-slides",
+  "version": "0.0.1",
+  "description": "Slides",
+  "homepage": "http://italodr.com/slides",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
@@ -11,16 +10,16 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Italo Devoto Ramella",
+    "email": "italodr@gmail.com",
+    "web": "https://italodr.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git@github.com:italodr/slides.git"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10"
   },
   "devDependencies": {
     "express": "^4.16.2",

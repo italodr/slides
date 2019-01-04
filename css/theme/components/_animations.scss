@@ -1,0 +1,11 @@
+.slides section .fragment {
+    &.step-fade-in-then-out {
+        display: none;
+        opacity: 0;
+
+        &.current-fragment {
+            display: inline;
+            opacity: 1;
+        }
+    }
+}

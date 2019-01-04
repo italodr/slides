@@ -1,0 +1,29 @@
+blockquote {
+    border: solid $lightMagenta;
+    border-width: 0 0 0 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-align: left;
+
+    &.cite {
+        border: 0;
+        font-size: 1.333rem;
+        font-weight: 300;
+        line-height: 1.333;
+        margin: 40px 0;
+        padding: 20px 40px;
+
+        &::before {
+            content: url(../../img/quote.svg);
+            height: 36px;
+            left: -15px;
+            opacity: .35;
+            position: absolute;
+            top: 0;
+            width: 36px;
+        }
+    }
+}

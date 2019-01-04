@@ -1,14 +1,14 @@
 pre {
-    font-size: .75em;
+    font-size: 1.333rem;
     letter-spacing: 1px;
     line-height: 1.75;
 
     &, * {
-        font-family: 'Roboto Mono', monospace, serif;
+        font-family: 'Inconsolata', monospace;
     }
 
     .hljs {
-        background: hsla(0, 100%, 0%, .35);
+        background: hsla(0, 100%, 0%, 1);
         padding: 1rem;
     }
 }

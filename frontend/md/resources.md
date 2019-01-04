@@ -1,0 +1,11 @@
+* [Google Developers](https://developers.google.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/)
+* [W3C](https://www.w3c.es/)
+* [Codrops CSS Reference](https://tympanus.net/codrops/css_reference/)
+* [CSS-Tricks](https://css-tricks.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio Code Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHHkdpK8E37x_d5cOZBr4GlL)
+* [HTML and CSS: Design and Build Websites](http://www.htmlandcssbook.com/)
+* [Learning Web Design](https://www.oreilly.com/library/view/learning-web-design/9781491960196/)
+* <a href="../../img/html-cheat-sheet.pdf" target="_blank">HTML Cheat Sheet</a>
+* [A Standardista's Alphabet](https://alistapart.com/article/alphabet)

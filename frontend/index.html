@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Frontend</title>
+
+    <link rel="stylesheet" href="../css/reveal.css" />
+    <link rel="stylesheet" href="../css/theme/italodr.css" />
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../lib/css/zenburn.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? '../css/print/pdf.css'
+        : '../css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div id="italodr" class="reveal">
+      <header class="header"></header>
+      <a href="#/1" class="nav" title="Ir al índice"
+        ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.123 60.123">
+          <path
+            d="M57.124,51.893H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3S58.781,51.893,57.124,51.893z"
+          />
+          <path
+            d="M57.124,33.062H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3
+              C60.124,31.719,58.781,33.062,57.124,33.062z"
+          />
+          <path
+            d="M57.124,14.231H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3S58.781,14.231,57.124,14.231z"
+          />
+          <circle cx="4.029" cy="11.463" r="4.029" />
+          <circle cx="4.029" cy="30.062" r="4.029" />
+          <circle cx="4.029" cy="48.661" r="4.029" />
+        </svg>
+      </a>
+      <div class="slides">
+        <section data-external="../components/hi.html"></section>
+        <section data-external="./slides/index.html"></section>
+        <section data-external="./slides/web-evolution.html"></section>
+        <section data-external="./slides/questions.html"></section>
+        <section data-external="./slides/html.html"></section>
+        <section data-external="./slides/html-tags.html"></section>
+        <section data-external="./slides/html-start.html"></section>
+        <section class="left" data-state="titled resources">
+          <style>
+            .resources .header::before {
+              content: 'Recursos';
+            }
+          </style>
+          <section
+            data-markdown="./md/resources.md"
+            data-separator="^\n\n\n"
+            data-separator-vertical="^\n\n"
+            data-separator-notes="^Note:"
+            data-charset="utf-8"
+          ></section>
+        </section>
+        <section data-external="../components/thanks.html"></section>
+      </div>
+    </div>
+
+    <script src="../lib/js/head.min.js"></script>
+    <script src="../js/reveal.js"></script>
+    <script src="../js/initialize.js"></script>
+  </body>
+</html>

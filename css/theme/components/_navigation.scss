@@ -1,0 +1,20 @@
+.nav {
+    color: $gray;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+
+    svg {
+        height: 18px;
+        width: 18px;
+
+        path, circle { fill: currentColor; }
+    }
+
+    &:hover {
+        color: $gray;
+        opacity: .75;
+    }
+}

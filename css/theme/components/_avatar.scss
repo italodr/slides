@@ -1,5 +1,12 @@
 .avatar {
     border-radius: 50%;
     margin: 0 0 .5em;
-    max-width: 6em;
+    max-width: 4em;
+}
+
+.square {
+    border: 0;
+    box-shadow: none;
+    margin: 0 0 .5em;
+    max-width: 4em;
 }

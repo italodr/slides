@@ -1,19 +1,61 @@
-h1, h2, h3, h4 {
-    text-transform: none;
+// 1.333
+.huge { font-size: 4.209rem; }
+.big { font-size: 3.157rem; }
+.large { font-size: 2.369rem; }
+
+.huge,
+.big,
+.large {
+    font-weight: 800;
+    letter-spacing: -3px;
 }
 
-h5, h6 {
+.header {
+    font-size: 1rem;
+    font-weight: 700;
+    left: 2rem;
+    opacity: 0;
+    position: fixed;
+    top: 2rem;
+
+    &::before,
+    &::after {
+        display: block;
+    }
+
+    &::after {
+        background: $cyan;
+        bottom: -20px;
+        content: '';
+        height: 3px;
+        left: 0;
+        position: absolute;
+        width: 80px;
+    }
+
+    .titled & {
+        opacity: 1;
+        transition: opacity .3s linear;
+    }
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h4, h5, h6, .huge, .header {
     text-transform: uppercase;
 }
 
-.anton {
-    font-family: 'Anton', sans-serif;
-}
+p, blockquote, .readable { max-width: 720px; }
+.strong { font-weight: 700; }
 
-.pattaya {
-    font-family: 'Pattaya', sans-serif;
-}
-
-.huge {
-    font-size: 7.478rem;
+.center {
+    p, blockquote {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

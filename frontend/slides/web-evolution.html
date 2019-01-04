@@ -1,0 +1,123 @@
+<section data-background-transition="slide" data-background="../img/backgrounds/old-computers.jpg">
+  <h1 class="huge">Evolución e historia de Internet</h1>
+  <a href="https://es.wikipedia.org/wiki/Historia_de_Internet" class="fragment fade-up"
+    ><br />Wikipedia: Historia de Internet</a
+  >
+</section>
+<section class="center" data-state="titled browsers1">
+  <style>
+    .browsers1 .header::before {
+      content: 'Navegadores web y motores de renderizado';
+    }
+  </style>
+  <blockquote>
+    Para mayor información podéis utilizar el siguiente link que explica la evolución y las
+    diferentes tecnologías relacionadas con el universo web:
+    <a href="https://like.allmyfaves.com/like/site/name/evolutionofweb.appspot.com"
+      >Evolución de la web</a
+    >
+    o la
+    <a href="https://en.wikipedia.org/wiki/Timeline_of_web_browsers"
+      >línea temporal de los navegadores web en Wikipedia</a
+    >
+  </blockquote>
+  <br /><br />
+  <img class="square" src="../img/history/ie-logo.png" alt="IE logo" /><br />
+  <p>
+    <b>Trident</b> de Microsoft se usó en todos los IE hasta la versión 9. Las versiones 10 y
+    superiores se basan en Lynx. No soportaba estándares web. La representación del mismo código en
+    el resto de motores era inconsistente.
+  </p>
+</section>
+<section class="center" data-state="titled browsers2">
+  <style>
+    .browsers2 .header::before {
+      content: 'Navegadores web y motores de renderizado';
+    }
+  </style>
+  <img class="square" src="../img/history/gecko-logo.png" alt="Gecko logo" /><br />
+  <p>
+    <b>Gecko</b>, creado para Netscape Navigator 1.0 en diciembre de 1994. Mejorado por Mozilla
+    Foundation y ya con el nombre de Gecko, pasó a formar parte de Firebird y posteriormente de
+    Firefox y el cliente de correo Thunderbird. Multiplataforma y web standards compliant.
+  </p>
+</section>
+<section class="center" data-state="titled browsers3">
+  <style>
+    .browsers3 .header::before {
+      content: 'Navegadores web y motores de renderizado';
+    }
+  </style>
+  <img class="square" src="../img/history/webkit-logo.png" alt="Webkit logo" /><br />
+  <p>
+    <b>Webkit</b>, basado en Konkeror de KDE Linux. Modificado por Apple e introducido en Safari en
+    2003. A partir de entonces deja de ser Software Libre.
+  </p>
+</section>
+<section class="center" data-state="titled browsers4">
+  <style>
+    .browsers4 .header::before {
+      content: 'Navegadores web y motores de renderizado';
+    }
+  </style>
+  <img class="square" src="../img/history/edge-logo.png" alt="Edge logo" /><br />
+  <p>
+    <b>Edge</b>, el sucesor de Trident. Desarrollado con el code name Spartan. Mejor rendimiento,
+    mayor soporte de estándares web y disponible con Windows 10.
+  </p>
+</section>
+<section class="center" data-state="titled browsers5">
+  <style>
+    .browsers5 .header::before {
+      content: 'Navegadores web y motores de renderizado';
+    }
+  </style>
+  <img class="square" src="../img/history/blink-logo.png" alt="Blink logo" /><br />
+  <p>
+    <b>Blink</b>, desarrollado por Google en 2013 como parte del proyecto open source Chromium. Pasa
+    a formar parte de Chrome v28 y Opera v15. Una de sus características es que mejora el
+    multi-proceso y pretende acabar con los vendor prefixes.
+  </p>
+  <blockquote class="cite">
+    Microsoft confirmó antes de terminar el año que abandonarán el navegador Edge para basarse en
+    Chromium. Al igual que Google Chrome, Opera, Vivaldi y Brave.
+  </blockquote>
+</section>
+<section data-background-transition="slide" data-background="../img/backgrounds/panic.jpg">
+  <div class="large">Esto qué quiere decir...🤔</div>
+  <h1 class="fragment fade-up big">No todos los navegadores son iguales</h1>
+</section>
+<section class="left" data-state="titled prefixes">
+  <style>
+    .prefixes .header::before {
+      content: 'Prefijos comunes';
+    }
+  </style>
+  <div class="flex">
+    <ul style="width: 25%;">
+      <li>Android: <b>-webkit-</b></li>
+      <li>Chrome: <b>-webkit-</b></li>
+      <li>Firefox: <b>-moz-</b></li>
+      <li>Internet Explorer: <b>-ms-</b></li>
+      <li>iOS: <b>-webkit-</b></li>
+      <li>Opera: <b>-o-</b></li>
+      <li>Safari: <b>-webkit-</b></li>
+    </ul>
+    <div style="padding: 0 0 0 20px; width: 60%;">
+      <pre class="fragment step-fade-in-then-out"><code data-trim>
+.my-element {
+    transition: all 4s ease;
+}
+        </code></pre>
+      <pre class="fragment step-fade-in-then-out"><code data-trim>
+.my-element {
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+}
+        </code></pre>
+    </div>
+  </div>
+</section>

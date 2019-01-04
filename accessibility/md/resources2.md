@@ -1,0 +1,13 @@
+#### Recursos
+* [https://a11yproject.com/resources](https://a11yproject.com/resources)
+* [https://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/](https://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/)
+* [https://accessibility.digital.gov/](https://accessibility.digital.gov/)
+* [https://github.com/scottaohara/a11y_tooltips](https://github.com/scottaohara/a11y_tooltips)
+* [https://allyjs.io/data-tables/focusable.html](https://allyjs.io/data-tables/focusable.html)
+* [https://hankchizljaw.io/wrote/introducing-the-button-element/](https://hankchizljaw.io/wrote/introducing-the-button-element/)
+* [https://davatron5000.github.io/a11y-nutrition-cards/](https://davatron5000.github.io/a11y-nutrition-cards/)
+* [https://webflow.com/blog/html5-semantic-elements-and-webflow-the-essential-guide](https://webflow.com/blog/html5-semantic-elements-and-webflow-the-essential-guide)
+* [https://www.w3.org/WAI/tutorials/images/decorative/](https://www.w3.org/WAI/tutorials/images/decorative/)
+* [https://www.nomensa.com/blog/2010/accessible-forms-using-the-jquery-validation-plug-in](https://www.nomensa.com/blog/2010/accessible-forms-using-the-jquery-validation-plug-in)
+* [https://accessibility.digital.gov/front-end/getting-started/](https://accessibility.digital.gov/front-end/getting-started/)
+* [https://a11yproject.com/posts/alt-text/](https://a11yproject.com/posts/alt-text/)

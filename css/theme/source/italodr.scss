@@ -10,7 +10,7 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto+Mono|Anton|Pattaya);
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400,700,800');
 
 /**
  * Solarized colors by Ethan Schoonover
@@ -29,33 +29,39 @@ $base0:     #839496;
 $base1:     #93a1a1;
 $base2:     #eee8d5;
 $base3:     #fdf6e3;
+$white:     #ffffff;
 $yellow:    #b58900;
 $orange:    #cb4b16;
 $red:       #dc322f;
 $magenta:   #d33682;
+$lightMagenta: #f14e9d;
 $violet:    #6c71c4;
+$lightViolet: #a6a8f3;
 $blue:      #268bd2;
 $cyan:      #2aa198;
-$green:     #859900;
+$green:     #9caa41;
+
+$dark:      #181818;
+$gray:      #bababa;
 
 // Background of the presentation
-$backgroundColor: $base03;
+$backgroundColor: $white;
 
 // Primary/body text
-$mainFont: 'Roboto Slab', sans-serif;
+$mainFont: 'Open Sans', sans-serif;
 $mainFontSize: 20px;
-$mainColor: $base1;
+$mainColor: $dark;
 
 // Vertical spacing between blocks of text
 $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'Raleway', serif;
-$headingColor: $base2;
+$headingFont: $mainFont;
+$headingColor: $dark;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingTextShadow: none;
 $headingFontWeight: normal;
 $heading1TextShadow: none;
@@ -66,7 +72,7 @@ $heading3Size: 1.333em;
 $heading4Size: 1em;
 
 // Links and actions
-$linkColor: $blue;
+$linkColor: $cyan;
 $linkColorHover: lighten( $linkColor, 20% );
 
 // Text selection
@@ -74,9 +80,16 @@ $selectionBackgroundColor: $magenta;
 $selectionColor: $base1;
 
 #italodr {
+    @import "../components/reset";
+    @import "../components/animations";
     @import "../components/avatar";
+    @import "../components/blockquote";
     @import "../components/code";
+    @import "../components/lists";
+    @import "../components/navigation";
     @import "../components/typography";
+
+    @import "../components/utilities";
 }
 
 // Theme template ------------------------------
