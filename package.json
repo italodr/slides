@@ -1,6 +1,6 @@
 {
   "name": "italodr-slides",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Slides",
   "homepage": "http://italodr.com/slides",
   "main": "js/reveal.js",
