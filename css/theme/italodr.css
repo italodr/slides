@@ -68,7 +68,7 @@ html * {
     background: black;
     padding: 1rem; }
 
-#italodr ul.hot li::before, #italodr li.hot::before {
+#italodr li.hot::before, #italodr ul.hot li::before {
   content: '🔥';
   font-size: .75em; }
 
@@ -84,8 +84,10 @@ html * {
   margin-left: 0;
   padding-left: 1em;
   text-indent: -1em; }
+  #italodr ul.empty li::before {
+    content: none; }
   #italodr ul ul {
-    margin: 20px 0; }
+    margin: 10px 0 20px; }
     #italodr ul ul li::before {
       color: #a6a8f3; }
   #italodr ul.rrss {
@@ -110,6 +112,23 @@ html * {
       max-width: initial;
       padding: 0;
       width: 24px; }
+  #italodr ul.emojies {
+    display: flex;
+    justify-content: center; }
+    #italodr ul.emojies li {
+      display: block;
+      margin: 0 10px;
+      padding: 3rem 0 0;
+      position: relative;
+      text-align: center;
+      width: 100%; }
+      #italodr ul.emojies li::before {
+        content: none; }
+    #italodr ul.emojies .emoji {
+      font-size: 3rem;
+      left: 50%;
+      position: absolute;
+      top: 0; }
 
 #italodr dl.definitions {
   display: flex;
@@ -153,6 +172,12 @@ html * {
 
 #italodr .large {
   font-size: 2.369rem; }
+
+#italodr .medium {
+  font-size: 1.777rem; }
+
+#italodr .small {
+  font-size: 1rem; }
 
 #italodr .huge,
 #italodr .big,
