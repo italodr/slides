@@ -1,0 +1,79 @@
+<section data-background-transition="slide" data-background="../img/backgrounds/imagination.jpg">
+  <h1 class="huge">Diseño accesible</h1>
+</section>
+<section class="center" data-state="titled design1">
+  <style>
+    .design1 .header::before {
+      content: 'Contraste';
+    }
+  </style>
+  <p>El texto de primer plano debe tener suficiente contraste con los colores de fondo. Esto incluye
+  texto en imágenes, gradientes de fondo, botones y otros elementos.</p>
+
+  <img src="../img/accessibility/text-contrast.png" alt="Text contrast sample image">
+</section>
+
+<section class="center" data-state="titled design2">
+  <style>
+    .design2 .header::before {
+      content: 'Diseño basado en color';
+    }
+  </style>
+  <p>Si bien el color puede ser útil para transmitir información, el color no debe ser la única forma de transmitir la información.</p>
+  <br>
+  <div class="row">
+    <div>
+      Incorrecto<hr>
+      <img src="../img/accessibility/form-not-accessible.png" alt="Form not accesible sample">
+    </div>
+    <div>
+      Correcto<hr>
+      <img src="../img/accessibility/form-color-blind.png" alt="Accesible form with color blindness">
+    </div>
+  </div>
+</section>
+
+<section class="center" data-state="titled design3">
+  <style>
+    .design3 .header::before {
+      content: 'Elementos interactivos fáciles de identificar';
+    }
+  </style>
+  <p>Proporciona estilos distintos para elementos interactivos, como enlaces y botones, para que sean fáciles de identificar. Asegúrate que los estilos y nombres de los elementos interactivos sean coherentes en todo el sitio web.</p>
+  <br>
+  <img src="../img/accessibility/links.jpg" alt="imagen de elementos interactivos">
+</section>
+
+<section class="left" data-state="titled design4">
+  <style>
+    .design4 .header::before {
+      content: 'Navegación clara y consistente';
+    }
+  </style>
+  <p>Asegúrate que la navegación a través de las páginas dentro de un sitio web tenga nombres, estilos y posicionamientos consistentes. Proporciona más de un método de navegación del sitio web, como un buscador o un mapa del sitio. Ayuda a los usuarios a comprender dónde se encuentran en un sitio web brindando pistas de orientación, como <i>breadcrumbs</i> y encabezados claros.</p>
+  <br>
+  <img src="../img/accessibility/breadcrumbs.png" alt="Ejemplo de breadcrumbs">
+</section>
+
+<section class="center" data-state="titled design5">
+  <style>
+    .design5 .header::before {
+      content: 'Alternativas de imagen y medios';
+    }
+  </style>
+  <ul>
+    <li>Enlaces visibles a transcripciones de audio.</li>
+    <li>Enlaces visibles a las versiones de audio descritas de los videos.</li>
+    <li>Texto junto con iconos y botones gráficos.</li>
+    <li>Títulos y descripciones para tablas o gráficos complejos.</li>
+    <li>Trabaja con los autores y desarrolladores de contenido para proporcionar alternativas para el
+    contenido que no sea de texto.</li>
+  </ul>
+</section>
+
+<section class="center">
+  <a href="https://webaim.org/resources/designers/media/designers.png" target="_blank"><img src="../img/accessibility/designers.png" alt="Designers accessibility list" style="height: 90vh;"></a>
+  <div>
+    <a class="small" href="https://webaim.org/resources/designers/media/designers.png" target="_blank">Web Accessibility for designers</a>
+  </div>
+</section>

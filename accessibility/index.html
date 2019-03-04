@@ -22,9 +22,22 @@
     </head>
     <body>
         <div id="italodr" class="reveal">
+            <header class="header"></header>
             <div class="slides">
                 <section data-external="../components/hi.html"></section>
-                <section class="left">
+                <section data-external="./slides/start.html"></section>
+                <section data-external="./slides/what-is.html"></section>
+                <section data-external="./slides/types.html"></section>
+                <section data-external="./slides/design.html"></section>
+                <section data-external="./slides/developers.html"></section>
+
+                <!-- Resources -->
+                <section class="left" data-state="titled resources">
+                    <style>
+                    .resources .header::before {
+                        content: 'Recursos';
+                    }
+                    </style>
                     <section data-markdown="./md/resources.md"
                          data-separator="^\n\n\n"
                          data-separator-vertical="^\n\n"
@@ -32,6 +45,12 @@
                          data-charset="utf-8">
                     </section>
                     <section data-markdown="./md/resources2.md"
+                         data-separator="^\n\n\n"
+                         data-separator-vertical="^\n\n"
+                         data-separator-notes="^Note:"
+                         data-charset="utf-8">
+                    </section>
+                    <section data-markdown="./md/resources3.md"
                          data-separator="^\n\n\n"
                          data-separator-vertical="^\n\n"
                          data-separator-notes="^Note:"

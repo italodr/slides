@@ -1,0 +1,101 @@
+<section data-background-transition="slide" data-background="../img/backgrounds/coding.jpg">
+  <h1 class="huge">Desarrollo accesible</h1>
+</section>
+<section class="center" data-state="titled design1">
+  <style>
+    .design1 .header::before {
+      content: 'Texto alternativo para imágenes';
+    }
+  </style>
+  <p>Añade texto alternativo para todas las imágenes informativas y funcionales. Usa el texto alternativo vacío <code class="inline">alt=""</code> para imágenes decorativas.</p>
+</section>
+
+<section class="center" data-state="titled design2">
+  <style>
+    .design2 .header::before {
+      content: 'Idioma de la página y contenido';
+    }
+  </style>
+  <p>Indica el idioma principal de cada página utilizando el atributo lang en la etiqueta html, por ejemplo, <code class="inline">&lt;html lang="en"&gt;</code>. Use el atributo lang en elementos específicos cuando el idioma del elemento difiera del resto de la página.</p>
+</section>
+
+<section class="center" data-state="titled design3">
+  <style>
+    .design3 .header::before {
+      content: 'HTML para transmitir significado y estructura';
+    }
+  </style>
+  <p>Usa el lenguaje de marcado o HTML adecuado para encabezados, listas, tablas, etc. HTML5 proporciona elementos adicionales, como &lt;nav&gt; y &lt;aside&gt;, para estructurar mejor su contenido. Los roles WAI-ARIA pueden proporcionar un significado adicional, por ejemplo, usar <code class="inline">role="search"</code> para identificar la funcionalidad de búsqueda.</p>
+
+  <pre><code class="small html hljs" data-trim>
+<&#8291;section>
+  <article>
+    <h2>Superbear saves the day</h2>
+    <time datetime="2019-08-07">7 Aug 2019</time>
+    <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree.
+      Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some
+      minor scratch wounds on his rescuer.</p>
+    <aside>
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="#">Bear receives key to city</a></li>
+        <li><a href="#">Superbear stands for mayor</a></li>
+      </ul>
+    </aside>
+  </article>
+<&#8291;/section>
+  </code></pre>
+</section>
+
+<section class="left" data-state="titled design4">
+  <style>
+    .design4 .header::before {
+      content: 'Refleja el orden de lectura en el orden del código';
+    }
+  </style>
+  <div class="row">
+    <div><img src="../img/accessibility/producto.jpg" alt="Space trainers, producto de ejemplo"></div>
+    <div>
+      <p>Asegúrate que el orden de los elementos en el código coincida con el orden lógico de la
+        información presentada. Una forma de verificar esto es eliminar el estilo CSS y revisar que el
+        orden del contenido tiene sentido.</p>
+    </div>
+  </div>
+  <pre><code class="html hljs" data-trim>
+<article class="product">
+  <h3 class="name">Space trainers</h3>
+  <img
+    alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap"
+    src="images/trainer.png">
+  <p class="desc">Space trainer for a classic and stylish look.</p>
+  <button role="button"><svg aria-hidden="true">{...}</svg> Add to cart</button>
+</article>
+  </code></pre>
+</section>
+
+<section class="center" data-state="titled design5">
+  <style>
+    .design5 .header::before {
+      content: 'Elementos interactivos accesibles desde el teclado';
+    }
+  </style>
+  <p>Piensa en el acceso al teclado especialmente al desarrollar elementos interactivos, como menús, acordeones plegables o reproductores multimedia. Usa <code class="inline">tabindex="0"</code> para agregar un elemento que normalmente no recibe el foco, como &lt;div&gt; o &lt;span&gt; y javascript para responder a eventos de teclado.</p>
+
+  <pre><code class="javascript hljs" data-trim>
+buttonExample.addEventListener('keydown', (event) => {
+  // Toggle the menu when RETURN is pressed
+  if (event.keyCode && event.keyCode === 13) {
+    toggleMenu(document.getElementById('example-button-menu'));
+  }
+});
+  </code></pre>
+</section>
+
+<section class="center" data-state="titled design6">
+  <style>
+    .design6 .header::before {
+      content: 'Texto del enlace sea significativo';
+    }
+  </style>
+  <p>Escribe un texto de enlace descriptivo. Evita utilizar texto de enlace ambiguo, como <b>"clic aquí"</b>.</p>
+</section>
