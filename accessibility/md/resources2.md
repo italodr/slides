@@ -6,7 +6,6 @@
 * [Checklist de accesibilidad](https://www.wuhcag.com/wcag-checklist/)
 * [Color blindness](https://www.smashingmagazine.com/2016/06/improving-color-accessibility-for-color-blind-users/)
 * [Semántica en accesibilidad](https://learn.shayhowe.com/advanced-html-css/semantics-accessibility/)
-* [Material Design accesibilidad](https://material.io/design/usability/accessibility.html)
 * [Comunidad de accesibilidad](http://a11yproject.com/)
 * [WebAIM](https://webaim.org)
 * [Focusable elements](https://allyjs.io/data-tables/focusable.html)

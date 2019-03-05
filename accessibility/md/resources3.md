@@ -1,7 +1,11 @@
 #### Misc
+* [Soporte de accesibilidad en navegadores](https://www.html5accessibility.com/)
 * [Componentes inclusivos](https://inclusive-components.design/)
 * [Componentes accesibles](https://github.com/scottaohara/accessible_components)
 * [Componentes accesibles](https://davatron5000.github.io/a11y-nutrition-cards/)
+* [Accessibility Guidelines](http://accessibility.voxmedia.com/)
+* [Material Design accesibilidad](https://material.io/design/usability/accessibility.html)
 * [Styleguide de accesibilidad](http://a11y-style-guide.com/style-guide/)
+* [Diseño UI accesible](https://css-tricks.com/advocating-for-accessible-ui-design/)
 * [Recursos para _debugging_](https://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/)
 * [Awareness day](http://globalaccessibilityawarenessday.org/participate.php)
