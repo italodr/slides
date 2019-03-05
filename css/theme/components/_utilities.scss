@@ -2,3 +2,18 @@
     display: flex;
     flex: 1;
 }
+
+.row {
+    display: flex;
+
+    > * {
+        display: block;
+        width: 100%;
+    }
+}
+
+hr {
+    border: solid $base01;
+    border-width: 1px 0 0;
+    margin: 0 5px;
+}

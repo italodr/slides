@@ -52,6 +52,10 @@ h4, h5, h6, .huge, .header {
     text-transform: uppercase;
 }
 
+h4 + ul {
+    margin-top: 20px;
+}
+
 p, blockquote, .readable { max-width: 720px; }
 .strong { font-weight: 700; }
 

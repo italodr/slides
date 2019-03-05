@@ -68,6 +68,17 @@ html * {
     background: black;
     padding: 1rem; }
 
+#italodr code.small {
+  max-height: 250px; }
+
+#italodr code.inline {
+  background: #2aa198;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: .75em;
+  padding: 2px 4px; }
+
 #italodr li.hot::before, #italodr ul.hot li::before {
   content: '🔥';
   font-size: .75em; }
@@ -218,6 +229,9 @@ html * {
 #italodr h4, #italodr h5, #italodr h6, #italodr .huge, #italodr .header {
   text-transform: uppercase; }
 
+#italodr h4 + ul {
+  margin-top: 20px; }
+
 #italodr p, #italodr blockquote, #italodr .readable {
   max-width: 720px; }
 
@@ -231,6 +245,17 @@ html * {
 #italodr .flex {
   display: flex;
   flex: 1; }
+
+#italodr .row {
+  display: flex; }
+  #italodr .row > * {
+    display: block;
+    width: 100%; }
+
+#italodr hr {
+  border: solid #586e75;
+  border-width: 1px 0 0;
+  margin: 0 5px; }
 
 /*********************************************
  * GLOBAL STYLES
