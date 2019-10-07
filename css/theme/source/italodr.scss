@@ -1,6 +1,6 @@
 /**
- * Solarized Dark theme for reveal.js.
- * Author: Achim Staebler
+ * italodr theme for reveal.js.
+ * Author: Italo Devoto Ramella
  */
 
 
@@ -10,7 +10,7 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400|Playfair+Display&display=swap');
 
 /**
  * Solarized colors by Ethan Schoonover
@@ -44,6 +44,12 @@ $green:     #9caa41;
 $dark:      #181818;
 $gray:      #bababa;
 
+$tone-blue: #005397;
+$tone-beige: #c5beaa;
+$tone-red: #ef3e4a;
+$tone-mint: #167c80;
+$tone-lightmint: #61bfad;
+
 // Background of the presentation
 $backgroundColor: $white;
 
@@ -72,8 +78,8 @@ $heading3Size: 1.333em;
 $heading4Size: 1em;
 
 // Links and actions
-$linkColor: $cyan;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColor: $tone-blue;
+$linkColorHover: $tone-red;
 
 // Text selection
 $selectionBackgroundColor: $magenta;
@@ -88,6 +94,7 @@ $selectionColor: $base1;
     @import "../components/lists";
     @import "../components/navigation";
     @import "../components/typography";
+    @import "../components/controls";
 
     @import "../components/utilities";
 }

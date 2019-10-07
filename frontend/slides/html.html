@@ -1,37 +1,88 @@
-<section
-  data-background-transition="slide"
-  data-background="../img/backgrounds/html5.jpg"
-></section>
+<section data-background="linear-gradient(135deg, #fc4a1a, #f7b733)"
+  data-background-size="cover" data-background-transition="slide">
+  <h1 class="huge white">HTML5</h1>
+</section>
 <section class="left" data-state="titled html1">
   <style>
     .html1 .header::before {
-      content: '¿Qué sabes de...?';
+      content: 'Características principales del HTML';
     }
   </style>
-  <h2 class="large">¿Cuáles son las características principales del HTML?</h2>
-  <p class="fragment fade-up">
+  <h2 class="large mb2">¿Cuáles son las características principales del HTML?</h2>
+  <p class="fragment fade-up mb3">
     HTML es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento
-    mediante etiquetas. Se trata de un fichero de texto, y solo se necesita un editor como el bloc
+    mediante etiquetas. Se trata de un fichero de texto, y solo se necesita un editor de texto como el bloc
     de notas para generar un documento HTML.
   </p>
-  <p class="fragment fade-up">
-    <strong>Gramática</strong><br />
-    Tiene una gramática que nos indica qué etiquetas se pueden utilizar, qué sig­nifican, cómo se
-    relacionan entre ellas, etc. Es muy similar a las gramáticas de las lenguas humanas. Por ejemplo
-    un párrafo.
-  </p>
-  <p class="fragment fade-up">
-    <strong>División de información</strong><br />
+</section>
+<section class="left" data-state="titled html2">
+  <style>
+    .html2 .header::before {
+      content: 'Características principales del HTML';
+    }
+  </style>
+  <div class="mb3">
+    <h3 class="medium secondary mb1">Gramática</h3>
+    <p>Tiene una gramática que nos indica qué etiquetas se pueden utilizar, qué sig­nifican, cómo se
+      relacionan entre ellas, etc. Es muy similar a las gramáticas de las lenguas humanas. Por
+      ejemplo
+      un párrafo.</p>
+  </div>
+  <div class="fragment fade-up">
+    <h3 class="medium secondary mb1">División de información</h3>
     <ul>
-      <li class="fragment fade-up">La cabecera (<i>head</i>), que contiene la información contextual de la página. Por ejemplo el idioma de nuestra página.</li>
-      <li class="fragment fade-up">La cuerpo (<i>body</i>), que contiene el contenido de nuestra página.</li>
+      <li class="fragment fade-up">La cabecera (<span class="small blue">&lt;head&gt;</span>), que contiene la información contextual
+        de la página. Por ejemplo el idioma de nuestra página.</li>
+      <li class="fragment fade-up">La cuerpo (<span class="small blue">&lt;body&gt;</span>), que contiene el contenido de nuestra
+        página.</li>
     </ul>
-  </p>
+  </div>
   <aside class="notes">
-    <span style="font-size: 16px; line-height: 1;">Un párrafo debe comenzar con mayúscula y finalizar con un punto y aparte. En HTML la gramática
-    marca que un párrafo debe comenzar con la etiqueta
-    &lt;p&gt; y finalizar con el cierre de la misma etiqueta (&lt;/p&gt;
-    ). Las marcas de inicio y fin de párrafo son diferentes en castellano y en HTML, pero el
-    significado es el mismo.</span>
+    <span style="font-size: 16px; line-height: 1;">Un párrafo debe comenzar con mayúscula y
+      finalizar con un punto y aparte. En HTML la gramática
+      marca que un párrafo debe comenzar con la etiqueta
+      &lt;p&gt; y finalizar con el cierre de la misma etiqueta (&lt;/p&gt;
+      ). Las marcas de inicio y fin de párrafo son diferentes en castellano y en HTML, pero el
+      significado es el mismo.</span>
   </aside>
 </section>
+<section data-background="linear-gradient(135deg, #fc4a1a, #f7b733)" data-background-size="cover"
+  data-background-transition="slide">
+  <h1 class="huge white">&lt; Etiquetas HTML &gt;</h1>
+</section>
+<section data-state="titled tags1">
+  <style>
+    .tags1 .header::before {
+      content: 'Etiquetas HTML';
+    }
+  </style>
+  <pre><code data-noescape>
+&lt;etiqueta&gt; &lt;/etiqueta&gt;
+<span class="fragment step-fade-in-then-out">&lt;etiqueta /&gt;</span>
+  </code></pre>
+</section>
+<section data-state="titled tags2">
+  <style>
+    .tags2 .header::before {
+      content: 'Etiquetas HTML';
+    }
+  </style>
+  <pre><code data-noescape>
+&lt;etiqueta <span class="fragment fade-in">attr1="value"</span> <span class="fragment fade-in">attr2="value"</span>&gt; &lt;/etiqueta&gt;
+  </code></pre>
+</section>
+<section class="left" data-state="titled tags3">
+  <style>
+    .tags3 .header::before {
+      content: 'Etiquetas HTML';
+    }
+  </style>
+  <pre><code class="xml">
+<blockquote class="quote">
+    <p>Strength does not come from physical capacity.
+      It comes from an indomitable will.</p>
+    <cite>Mahatma Gandhi</cite>
+</blockquote>
+  </code></pre>
+</section>
+

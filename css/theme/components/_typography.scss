@@ -3,18 +3,18 @@
 .big { font-size: 3.157rem; }
 .large { font-size: 2.369rem; }
 .medium { font-size: 1.777rem; }
+.regular { font-size: 1.43rem; }
 .small { font-size: 1rem; }
 
 .huge,
 .big,
 .large {
-    font-weight: 800;
-    letter-spacing: -3px;
+    font-family: 'Playfair Display', serif;
 }
 
 .header {
-    font-size: 1rem;
-    font-weight: 700;
+    color: $tone-beige;
+    font-size: 1.125rem;
     left: 2rem;
     opacity: 0;
     position: fixed;
@@ -26,13 +26,13 @@
     }
 
     &::after {
-        background: $cyan;
-        bottom: -20px;
+        background: $tone-beige;
+        bottom: -10px;
         content: '';
-        height: 3px;
+        height: 1px;
         left: 0;
         position: absolute;
-        width: 80px;
+        width: 100%;
     }
 
     .titled & {
@@ -49,14 +49,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4, h5, h6, .huge, .header {
-    text-transform: uppercase;
+    // text-transform: uppercase;
 }
 
 h4 + ul {
     margin-top: 20px;
 }
 
-p, blockquote, .readable { max-width: 720px; }
+p, blockquote, .readable {
+    line-height: 1.56;
+    max-width: 720px;
+}
+
 .strong { font-weight: 700; }
 
 .center {
@@ -65,3 +69,10 @@ p, blockquote, .readable { max-width: 720px; }
         margin-right: auto;
     }
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+.primary { font-family: 'Open Sans', sans-serif; }
+.secondary { font-family: 'Playfair Display', serif; }
