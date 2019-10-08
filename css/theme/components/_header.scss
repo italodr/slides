@@ -1,0 +1,28 @@
+.header {
+    color: $tone-gold;
+    font-size: 1.125rem;
+    left: 2rem;
+    opacity: 0;
+    position: fixed;
+    top: 2rem;
+
+    &::before,
+    &::after {
+        display: block;
+    }
+
+    &::after {
+        background: currentColor;
+        bottom: -10px;
+        content: '';
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    .titled & {
+        opacity: 1;
+        transition: opacity .3s linear;
+    }
+}

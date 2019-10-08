@@ -26,3 +26,16 @@ hr {
 .mb1 { margin-bottom: 1rem;}
 .mb1h { margin-bottom: .5rem; }
 .mb1q { margin-bottom: .25rem; }
+
+
+.left { text-align: left; }
+.right { text-align: right; }
+
+.center {
+    text-align: center;
+
+    p, blockquote {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

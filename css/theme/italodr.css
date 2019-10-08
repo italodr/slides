@@ -249,9 +249,11 @@ html * {
 #italodr .strong {
   font-weight: 700; }
 
-#italodr .center p, #italodr .center blockquote {
-  margin-left: auto;
-  margin-right: auto; }
+#italodr .center {
+  text-align: center; }
+  #italodr .center p, #italodr .center blockquote {
+    margin-left: auto;
+    margin-right: auto; }
 
 #italodr a:hover {
   text-decoration: underline; }

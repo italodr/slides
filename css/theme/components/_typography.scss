@@ -12,38 +12,6 @@
     font-family: 'Playfair Display', serif;
 }
 
-.header {
-    color: $tone-beige;
-    font-size: 1.125rem;
-    left: 2rem;
-    opacity: 0;
-    position: fixed;
-    top: 2rem;
-
-    &::before,
-    &::after {
-        display: block;
-    }
-
-    &::after {
-        background: $tone-beige;
-        bottom: -10px;
-        content: '';
-        height: 1px;
-        left: 0;
-        position: absolute;
-        width: 100%;
-    }
-
-    .titled & {
-        opacity: 1;
-        transition: opacity .3s linear;
-    }
-}
-
-.left { text-align: left; }
-.right { text-align: right; }
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -62,13 +30,6 @@ p, blockquote, .readable {
 }
 
 .strong { font-weight: 700; }
-
-.center {
-    p, blockquote {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
 
 a:hover {
     text-decoration: underline;
