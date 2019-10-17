@@ -209,33 +209,6 @@ html * {
 #italodr .large {
   font-family: 'Playfair Display', serif; }
 
-#italodr .header {
-  color: #c5beaa;
-  font-size: 1.125rem;
-  left: 2rem;
-  opacity: 0;
-  position: fixed;
-  top: 2rem; }
-  #italodr .header::before, #italodr .header::after {
-    display: block; }
-  #italodr .header::after {
-    background: #c5beaa;
-    bottom: -10px;
-    content: '';
-    height: 1px;
-    left: 0;
-    position: absolute;
-    width: 100%; }
-  .titled #italodr .header {
-    opacity: 1;
-    transition: opacity .3s linear; }
-
-#italodr .left {
-  text-align: left; }
-
-#italodr .right {
-  text-align: right; }
-
 #italodr h1, #italodr h2, #italodr h3, #italodr h4, #italodr h5, #italodr h6 {
   margin: 0; }
 
@@ -248,12 +221,6 @@ html * {
 
 #italodr .strong {
   font-weight: 700; }
-
-#italodr .center {
-  text-align: center; }
-  #italodr .center p, #italodr .center blockquote {
-    margin-left: auto;
-    margin-right: auto; }
 
 #italodr a:hover {
   text-decoration: underline; }
@@ -303,6 +270,18 @@ html * {
 
 #italodr .mb1q {
   margin-bottom: .25rem; }
+
+#italodr .left {
+  text-align: left; }
+
+#italodr .right {
+  text-align: right; }
+
+#italodr .center {
+  text-align: center; }
+  #italodr .center p, #italodr .center blockquote {
+    margin-left: auto;
+    margin-right: auto; }
 
 /*********************************************
  * GLOBAL STYLES
