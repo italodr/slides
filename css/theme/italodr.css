@@ -235,6 +235,27 @@ html * {
   color: #c5beaa;
   font-size: 5px; }
 
+#italodr .header {
+  color: #c39d63;
+  font-size: 1.125rem;
+  left: 2rem;
+  opacity: 0;
+  position: fixed;
+  top: 2rem; }
+  #italodr .header::before, #italodr .header::after {
+    display: block; }
+  #italodr .header::after {
+    background: currentColor;
+    bottom: -10px;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%; }
+  .titled #italodr .header {
+    opacity: 1;
+    transition: opacity .3s linear; }
+
 #italodr .flex {
   display: flex;
   flex: 1; }
